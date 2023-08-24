@@ -1,8 +1,6 @@
 ---
 title: GitBash-Cheatsheet
 description: Git Bash all necessary commands for using Github
-created: 2022-10-08
-updated: 2022-10-08
 ---
 # GITHUB COMMANDS SHEET
 
