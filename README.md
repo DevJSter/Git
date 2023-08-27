@@ -280,5 +280,6 @@ discard the changes from top of stash stack
   git reset --hard [commit]
 ```
 ## Download the official CheatSheet From Github itself:
-[git-cheat-sheet-education.pdf](https://github.com/DevJSter/GitBasicCommands/files/12446572/git-cheat-sheet-education.pdf)
+[Git_Cheatsheet](https://github.com/DevJSter/GitBasicCommands/files/12446572/git-cheat-sheet-education.pdf)
 
+[Official_Docuementation Link](https://git-scm.com/book/en/v2)
