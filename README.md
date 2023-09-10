@@ -1,6 +1,7 @@
 ---
-title: GitBash-Cheatsheet
-description: Git Bash all necessary commands for using Github
+Title: GitBash-Cheatsheet
+Description: Git Bash all necessary commands for using Github
+
 ---
 # GITHUB COMMANDS SHEET
 
