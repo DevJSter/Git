@@ -313,6 +313,6 @@ discard the changes from top of stash stack
 14.Learn more about Merging the commits to main repos [Git Merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
 
 
-[Official_Docuementation Link and pdf of aal the commands](https://git-scm.com/book/en/v2)
+[Official Documentation Link and pdf of all the commands](https://git-scm.com/book/en/v2)
 
 ## You can always fork this repo and contribute by doing changes opening pull requests!!
