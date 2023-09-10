@@ -282,7 +282,7 @@ discard the changes from top of stash stack
 ## Download the official CheatSheet From official Github itself:
 [Git_Cheatsheet](https://github.com/DevJSter/GitBasicCommands/files/12446572/git-cheat-sheet-education.pdf)
 
-## However I'll be providing you official docs of sepcific command line commands of Git and Github
+## However I'll be providing you official docs of specific command line commands of Git and Github
 
 1. You need to ensure you have Git installed in your system: You can install git [here](https://git-scm.com/downloads). 
 2. To learn more about what is a fork in Github, refer to this [doc on forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
@@ -291,7 +291,7 @@ discard the changes from top of stash stack
 
 4. Learn more about git branching [here](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 
-5. Learn more about how to create a new branch in git [here](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Mergin
+5. Learn more about how to create a new branch in git [here](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
 6. Learn about syncing a fork [here](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
 
@@ -307,9 +307,11 @@ discard the changes from top of stash stack
 
 12. Learn about how to rebase your commits by using ``git log --oneline`` [Git Rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
 
-13.Learn more abou the squashing after rebasing the commits when you used ``git rebase -i Head~(how many9 commits you wamma squash)`` [Git Squash](https://www.freecodecamp.org/news/git-squash-explained/)
+13.Learn more abou the squashing after rebasing the commits when you used ``git rebase -i Head~(how many commits you wanna squash)`` [Git Squash](https://www.freecodecamp.org/news/git-squash-explained/)
 
 14.Learn more about Merging the commits to main repos [Git Merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
 
 
-[Official_Docuementation Link and pdf of it](https://git-scm.com/book/en/v2)
+[Official_Docuementation Link and pdf of aal the commands](https://git-scm.com/book/en/v2)
+
+## You can always fork this repo and contribute by doing changes opening pull requests!!
