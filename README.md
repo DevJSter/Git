@@ -279,7 +279,37 @@ discard the changes from top of stash stack
 ```bash
   git reset --hard [commit]
 ```
-## Download the official CheatSheet From Github itself:
+## Download the official CheatSheet From official Github itself:
 [Git_Cheatsheet](https://github.com/DevJSter/GitBasicCommands/files/12446572/git-cheat-sheet-education.pdf)
 
-[Official_Docuementation Link](https://git-scm.com/book/en/v2)
+## However I'll be providing you official docs of sepcific command line commands of Git and Github
+
+1. You need to ensure you have Git installed in your system: You can install git [here](https://git-scm.com/downloads). 
+2. To learn more about what is a fork in Github, refer to this [doc on forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+
+3. To learn more about what is a clone in Github, refer to this [doc on cloning](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository).
+
+4. Learn more about git branching [here](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+
+5. Learn more about how to create a new branch in git [here](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Mergin
+
+6. Learn about syncing a fork [here](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
+
+7. Learn about how to configure a remote for a fork [here](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
+
+8. Learn about creating a Pull Request [here](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+
+9. Learn about creating a Pull Request from a forked repository [here](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
+
+10. Learn about creating a Pull Request from a branch [here](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request)
+
+11. Learn about creating a Pull Request from a forked repository and branch [here](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork#creating-the-pull-request)
+
+12. Learn about how to rebase your commits by using ``git log --oneline`` [Git Rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
+
+13.Learn more abou the squashing after rebasing the commits when you used ``git rebase -i Head~(how many9 commits you wamma squash)`` [Git Squash](https://www.freecodecamp.org/news/git-squash-explained/)
+
+14.Learn more about Merging the commits to main repos [Git Merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
+
+
+[Official_Docuementation Link and pdf of it](https://git-scm.com/book/en/v2)
