@@ -359,6 +359,61 @@ You can open this file in a text editor and look for the `[alias]` section. Insi
 
 Remember to use aliases wisely and avoid overloading common Git commands with aliases that might confuse you or other collaborators.
 
+17.  **git branch -d**: Delete a branch.
+   ```bash
+   git branch -d <branch-name>
+   ```
+
+18. **git branch -m**: Rename a branch.
+   ```bash
+   git branch -m <new-branch-name>
+   ```
+
+19. **git tag**: Create, list, delete, or verify a tag object signed with GPG.
+   ```bash
+   git tag -a <tag-name> -m "Tag message"
+   ```
+
+20. **git log --graph**: Show the commit history with ASCII graph showing branches and merges.
+   ```bash
+   git log --graph
+   ```
+
+21. **git blame**: Show what revision and author last modified each line of a file.
+   ```bash
+   git blame <file-name>
+   ```
+
+22. **git config --global user.name** and **git config --global user.email**: Set your Git username and email globally.
+   ```bash
+   git config --global user.name "Your Name"
+   git config --global user.email "your@example.com"
+   ```
+
+23. **git clean**: Remove untracked files from the working directory.
+   ```bash
+   git clean -f
+   ```
+
+24. **git grep**: Print lines matching a pattern.
+    ```bash
+    git grep "pattern"
+    ```
+
+25. **git bisect**: Use binary search to find the commit that introduced a bug.
+    ```bash
+    git bisect start
+    git bisect good <commit-hash>
+    git bisect bad <commit-hash>
+    ```
+
+26. **git show**: Show various types of objects.
+    ```bash
+    git show <commit-hash>
+    ```
+
+#### Remember, these commands cover a wide range of Git functionalities. The key to becoming proficient with Git is understanding when and how to use each command in different situations. It's also a good practice to refer to the official Git documentation or use `git help <command>` for more detailed information about each command.
+
 
 [Official Documentation Link and pdf of all the commands](https://git-scm.com/book/en/v2)
 
