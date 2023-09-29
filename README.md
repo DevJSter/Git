@@ -312,7 +312,7 @@ discard the changes from top of stash stack
 
 14.Learn more about Merging the commits to main repos [Git Merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
 
-15.`git cherry-pick` is a Git command that lets you pick specific commits from one branch and apply them onto another. It's useful for applying specific changes without merging entire branches. Use it like this:
+15. `git cherry-pick` is a Git command that lets you pick specific commits from one branch and apply them onto another. It's useful for applying specific changes without merging entire branches. Use it like this:
 
 ```bash
 git cherry-pick <commit-hash>
@@ -325,6 +325,39 @@ git cherry-pick <start-commit>^..<end-commit>
 ```
 
 Resolve conflicts if they occur before completing the process. Be careful, as it can complicate your branch history if misused.
+
+16. In Git, aliases are custom shortcuts or abbreviations for Git commands. They allow you to create shorter, more convenient versions of Git commands that you frequently use. You can define aliases using the `git config` command.
+
+To create a Git alias, you can use the following syntax:
+
+```bash
+git config --global alias.<alias-name> '<git-command>'
+```
+
+For example, to create an alias called `co` for `git checkout`, you can use:
+
+```bash
+git config --global alias.co 'checkout'
+```
+
+This sets up a global alias, meaning it will be available for all your Git repositories. Replace `'checkout'` with any Git command or sequence of commands you want to abbreviate.
+
+To view all your configured aliases, you can check your Git configuration file directly, or you can use the following command:
+
+```bash
+git config --get-regexp alias
+```
+
+This command will list all the aliases you have configured in your Git configuration. It displays the alias names and their corresponding Git commands.
+
+Additionally, you can also open your Git configuration file using a text editor. The location of this file varies depending on your operating system:
+
+- On Unix/Linux systems, it's usually located at `~/.gitconfig` or `~/.config/git/config`.
+- On Windows, it's typically at `C:\Users\<YourUsername>\.gitconfig`.
+
+You can open this file in a text editor and look for the `[alias]` section. Inside this section, you'll find all your configured aliases.
+
+Remember to use aliases wisely and avoid overloading common Git commands with aliases that might confuse you or other collaborators.
 
 
 [Official Documentation Link and pdf of all the commands](https://git-scm.com/book/en/v2)
