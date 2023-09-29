@@ -312,6 +312,20 @@ discard the changes from top of stash stack
 
 14.Learn more about Merging the commits to main repos [Git Merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
 
+15.`git cherry-pick` is a Git command that lets you pick specific commits from one branch and apply them onto another. It's useful for applying specific changes without merging entire branches. Use it like this:
+
+```bash
+git cherry-pick <commit-hash>
+```
+
+Or for a range of commits:
+
+```bash
+git cherry-pick <start-commit>^..<end-commit>
+```
+
+Resolve conflicts if they occur before completing the process. Be careful, as it can complicate your branch history if misused.
+
 
 [Official Documentation Link and pdf of all the commands](https://git-scm.com/book/en/v2)
 
